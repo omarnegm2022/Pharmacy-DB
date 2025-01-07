@@ -1,2 +1,2 @@
 # Pharmacy-DB
-A database using Microsoft MySQL
+A database using Microsoft MSSQL server
