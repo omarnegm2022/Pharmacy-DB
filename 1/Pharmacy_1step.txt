@@ -1,0 +1,27 @@
+The pharmacy database stores details about the drugs and employees who work in and the companies that exports the drugs. The pharmacy has also additional services other than selling the drugs.
+Keep in mind that the pharmacy has only one main branch.
+
+Requirements of this database are as follows:
+- The employees in the pharmacy sells some drugs, each drug has(not NULL attributes) a name, its total number in the pharmacy, how many consumed, and how many left.also barcode(primary key), its company name(foreign key to the company), its price
+
+- sale is about 25% of a transaction totally.
+
+- the pharmaceutical company has an address, telephone number(telephone or address can have null, but not both for the same company), and its name indeed(primary key), sale on its drugs if it offers(otherwise NULL or none). It can have an attribute for orders in case of 0 left of a drug in the pharmacy.
+
+[OPTIONAL]- for additional services(e.g. blood pressure measurement or Influenza vaccination), the database can store data(related only to this service, no redundant.) about frequent patients who comes for that service and recent details every time. We can include the employee ID as a foreign key to the employee and patient full_name as a primary key.
+
+- Each employee has an ID(primary key), name(composite: first_ and last_), work hours(multivalued), phone number(multivalued),Time started work and salary.
+
+
+الويك انتتي بعرفه ازاي؟؟
+هل لو له علاقة مع كيان تالت، هيبقى هو كمان ويك بسببه؟
+
+M:N  PK is combination of FKs
+1-M with 3rd relation: PK is the PK of M-side
+الحاجات البديهية أعملها بردو constraint ?
+20+1135678953
+
+عايزين نتفق على القيود ف حط الجدول
+
+123456789abcdefg         
+123456789abcdefg         
