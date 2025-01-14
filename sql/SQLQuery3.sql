@@ -42,7 +42,7 @@ select  distinct Co.CID, Co.C_name, Co.C_Address, Co.C_Arrive, Co.Rep_name, Co.C
 from Company Co join Export Ex on Co.CID = Ex.CID
 where  Ex.O_price = 5000
 
-/*select all drugs that begin with ‘o’ alphapet*/
+/*select all drugs that begin with â€˜oâ€™ alphapet*/
 select * 
 from Drugs
 where D_name in(select D.D_name

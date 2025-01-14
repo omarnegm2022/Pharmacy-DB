@@ -122,7 +122,12 @@ INSERT INTO  Sell (EID, Barcode, T_price, Price_sale, Consumed, Con_date)
 		( 13, 1008, 48, 38.4, 4, '2022-05-01 06:20:29'),
 		( 11, 1003, 258, 206.4, 6,  '2022-08-20 11:43:50'),
 		( 14, 1018, 42, 33.6, 2, '2022-10-15 09:15:00');
-
+-- NOTE: numbers after decimal point are removed, so it is better to:
+alter table Sell
+alter column T_price float
+-- and leave Price_sale as it also removes the tips for generosity, then
+delete from Sell
+-- and execute the insertion again
 
 INSERT INTO Export(Barcode ,CID, Order_Qnty, O_date, O_price)
 Values 
