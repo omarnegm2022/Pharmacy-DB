@@ -1,2 +1,2 @@
 # Pharmacy-DB
-A database using Microsoft MSSQL server
+A teamwork project of a database using Microsoft MSSQL server
